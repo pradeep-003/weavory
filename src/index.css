@@ -24,3 +24,10 @@
   scrollbar-width: thin;
   scrollbar-color: #ff9a8b #ffffff;
 }
+
+.hero {
+  background-image: url("./assets/eclipse.svg");
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 500px;
+}

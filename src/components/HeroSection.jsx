@@ -4,8 +4,52 @@ const HeroSection = () => {
   return (
     <section className="relative w-full min-h-screen bg-gradient-to-br from-orange-50 via-pink-50 to-peach-100 overflow-hidden">
       {/* Decorative SVG Elements */}
+
+      <div className=" absolute  top-75 left-20 ">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="570"
+          height="570"
+          viewBox="0 0 570 570"
+          fill="none"
+        >
+          <g filter="url(#filter0_f_1_25)">
+            <circle
+              cx="285"
+              cy="285"
+              r="182"
+              fill="#FFA793"
+              fill-opacity="0.68"
+            />
+          </g>
+          <defs>
+            <filter
+              id="filter0_f_1_25"
+              x="0"
+              y="0"
+              width="570"
+              height="570"
+              filterUnits="userSpaceOnUse"
+              color-interpolation-filters="sRGB"
+            >
+              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feBlend
+                mode="normal"
+                in="SourceGraphic"
+                in2="BackgroundImageFix"
+                result="shape"
+              />
+              <feGaussianBlur
+                stdDeviation="51.5"
+                result="effect1_foregroundBlur_1_25"
+              />
+            </filter>
+          </defs>
+        </svg>
+      </div>
+
       {/* Top Left Diamond */}
-      <div className="absolute top-20 left-12 opacity-40">
+      <div className="absolute top-20 left-12 opacity-70">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="66"
@@ -38,7 +82,7 @@ const HeroSection = () => {
       </div>
 
       {/* Right Side Diamonds */}
-      <div className="absolute top-32 right-0 opacity-30">
+      <div className="absolute top-32 right-0 opacity-60">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="87"
@@ -57,7 +101,7 @@ const HeroSection = () => {
         </svg>
       </div>
 
-      <div className="absolute bottom-120 right-20 opacity-40">
+      <div className="absolute bottom-120 right-20 opacity-70">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="66"

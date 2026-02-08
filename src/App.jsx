@@ -24,7 +24,8 @@ function App() {
       {/* HORIZONTAL LINES */}
       {/* <div className="absolute left-0 right-0 top-15 h-[4px] bg-white opacity-70"></div>
       <div className="absolute left-0 right-0 top-16 h-[4px] bg-white opacity-70"></div>  */}
-      <div className="h-fit w-full bg-[#FFF4DF] ml-10 mt-15">
+
+      <div className="h-fit w-full bg-[#FFF4DF] ml-10 mt-15 ">
         <Navbar />
         <HeroSection />
         <ShopCollection />
